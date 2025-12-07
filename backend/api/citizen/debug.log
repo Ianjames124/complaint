@@ -1,0 +1,26 @@
+[2025-12-02 08:05:05] Received request: {"title":"dsfsdf","description":"sdfsdfs","category":"sdfsdf","location":"sdfsdfsf"}
+[2025-12-02 08:05:05] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"dsfsdf","description":"sdfsdfs","category":"sdfsdf","location":"sdfsdfsf"},"timestamp":"2025-12-02T08:05:05+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 08:08:59] Received request: {"title":"dfdsfds","description":"dsfsdfs","category":"sdfsdfs","location":"dsfsdfsd"}
+[2025-12-02 08:08:59] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"dfdsfds","description":"dsfsdfs","category":"sdfsdfs","location":"dsfsdfsd"},"timestamp":"2025-12-02T08:08:59+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 08:09:22] Received request: {"title":"dfdsfds","description":"dsfsdfs","category":"sdfsdfs","location":"dsfsdfsd"}
+[2025-12-02 08:09:22] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"dfdsfds","description":"dsfsdfs","category":"sdfsdfs","location":"dsfsdfsd"},"timestamp":"2025-12-02T08:09:22+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 08:15:48] Received request: {"title":"asdasdasda","description":"asdasd","category":"asdasd","location":"asdasd"}
+[2025-12-02 08:15:48] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"asdasdasda","description":"asdasd","category":"asdasd","location":"asdasd"},"timestamp":"2025-12-02T08:15:48+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 08:18:02] Received request: {"title":"adsasd","description":"asdasdasd","category":"asdasd","location":"asdasd"}
+[2025-12-02 08:18:02] Validation Error: {"status":"error","message":"Validation failed","missing_fields":["citizen_name","email","subject"],"validation_errors":[],"received_data":{"title":"adsasd","description":"asdasdasd","category":"asdasd","location":"asdasd"},"timestamp":"2025-12-02T08:18:02+01:00"}
+[2025-12-02 08:18:25] Received request: {"title":"zczxczx","description":"sdasdasd","category":"Request: asdasd","location":"asdas"}
+[2025-12-02 08:18:25] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"zczxczx","description":"sdasdasd","category":"Request: asdasd","location":"asdas"},"timestamp":"2025-12-02T08:18:25+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 09:33:31] Received request: {"title":"dfdsfasd","description":"asdasas","category":"sadasd","location":"sadasdas"}
+[2025-12-02 09:33:31] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"dfdsfasd","description":"asdasas","category":"sadasd","location":"sadasdas"},"timestamp":"2025-12-02T09:33:31+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-02 09:36:42] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"sfsdfasdasd","category":"Infrastructure","location":"dapdap"}
+[2025-12-02 09:38:13] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"svsdfdfsd","category":"General","location":"dapdap"}
+[2025-12-02 09:43:24] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"dsasdasd","category":"General","location":"dapdap"}
+[2025-12-02 09:45:06] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"sdfsdf","category":"General","location":"dapdap"}
+[2025-12-02 09:48:08] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"asdasdasd","category":"General","location":"dapdap"}
+[2025-12-02 09:48:23] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"asdasdasd","category":"General","location":"dapdap"}
+[2025-12-02 09:56:38] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"xvggsdf","category":"General","location":"dapdap"}
+[2025-12-02 10:21:40] Received request: {"citizen_name":"ian villanueva","email":"ian@gmail.com","subject":"wasd","description":"sfsdsdgsd","category":"General","location":"dapdap"}
+[2025-12-02 10:21:53] Received request: {"title":"zdfds","description":"sdfdsf","category":"Request: xdssdfd","location":"fsf"}
+[2025-12-02 10:21:53] Validation Error: {"status":"error","message":"Validation failed","received_data":{"title":"zdfds","description":"sdfdsf","category":"Request: xdssdfd","location":"fsf"},"timestamp":"2025-12-02T10:21:53+01:00","missing_fields":["citizen_name","email","subject"]}
+[2025-12-06 06:18:16] Received request: {"citizen_name":"josh apinado","email":"josh@gmail.com","subject":"wasd","description":"sdfdsfsdf","category":"General","location":"dapdap"}
+[2025-12-06 06:18:36] Received request: {"title":"sadasd","description":"sdfsdf","category":"Request: sdfsdf","location":"sdfdsf"}

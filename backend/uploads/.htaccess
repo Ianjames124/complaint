@@ -1,0 +1,17 @@
+# Prevent directory browsing
+Options -Indexes
+
+# Deny direct access to files
+<FilesMatch "\.(php|phtml|php3|php4|php5|pl|py|jsp|asp|sh|cgi)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Allow only image files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# Prevent execution of scripts
+php_flag engine off

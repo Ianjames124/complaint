@@ -1,0 +1,15 @@
+{
+  "name": "ecomplaint/backend",
+  "description": "Core PHP backend for E-Complaint & Request System",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "firebase/php-jwt": "^6.0",
+    "tecnickcom/tcpdf": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "backend/"
+    }
+  }
+}

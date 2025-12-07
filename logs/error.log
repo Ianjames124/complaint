@@ -1,0 +1,204 @@
+[2025-12-02 09:45:06] Attempting to connect to MySQL server
+----------------------------------------
+[2025-12-02 09:45:06] Connected to MySQL server successfully
+----------------------------------------
+[2025-12-02 09:45:06] Database created/verified: complaint_db
+----------------------------------------
+[2025-12-02 09:45:06] Connected to database successfully
+----------------------------------------
+[2025-12-02 09:48:08] Attempting to connect to MySQL server
+----------------------------------------
+[2025-12-02 09:48:08] Connected to MySQL server successfully
+----------------------------------------
+[2025-12-02 09:48:08] Database created/verified: complaint_db
+----------------------------------------
+[2025-12-02 09:48:08] Connected to database successfully
+----------------------------------------
+[2025-12-02 09:48:08] Creating complaints table if not exists
+----------------------------------------
+[2025-12-02 09:48:08] Complaints table verified/created
+----------------------------------------
+[2025-12-02 09:48:08] Creating users table if not exists
+----------------------------------------
+[2025-12-02 09:48:08] Users table verified/created
+----------------------------------------
+[2025-12-02 09:48:08] Available tables in database:
+Data: Array
+(
+    [0] => complaint_files
+    [1] => complaints
+    [2] => departments
+    [3] => staff_assignments
+    [4] => status_updates
+    [5] => users
+)
+
+----------------------------------------
+[2025-12-02 09:48:23] Attempting to connect to MySQL server
+----------------------------------------
+[2025-12-02 09:48:23] Connected to MySQL server successfully
+----------------------------------------
+[2025-12-02 09:48:23] Database created/verified: complaint_db
+----------------------------------------
+[2025-12-02 09:48:23] Connected to database successfully
+----------------------------------------
+[2025-12-02 09:48:23] Creating complaints table if not exists
+----------------------------------------
+[2025-12-02 09:48:23] Complaints table verified/created
+----------------------------------------
+[2025-12-02 09:48:23] Creating users table if not exists
+----------------------------------------
+[2025-12-02 09:48:23] Users table verified/created
+----------------------------------------
+[2025-12-02 09:48:23] Available tables in database:
+Data: Array
+(
+    [0] => complaint_files
+    [1] => complaints
+    [2] => departments
+    [3] => staff_assignments
+    [4] => status_updates
+    [5] => users
+)
+
+----------------------------------------
+[2025-12-02 09:56:38] Attempting to connect to MySQL server
+----------------------------------------
+[2025-12-02 09:56:38] Connected to MySQL server successfully
+----------------------------------------
+[2025-12-02 09:56:38] Database created/verified: complaint_db
+----------------------------------------
+[2025-12-02 09:56:38] Connected to database successfully
+----------------------------------------
+[2025-12-02 09:56:38] Creating complaints table if not exists
+----------------------------------------
+[2025-12-02 09:56:38] Complaints table verified/created
+----------------------------------------
+[2025-12-02 09:56:38] Creating users table if not exists
+----------------------------------------
+[2025-12-02 09:56:38] Users table verified/created
+----------------------------------------
+[2025-12-02 09:56:38] Available tables in database:
+Data: Array
+(
+    [0] => complaints
+    [1] => users
+)
+
+----------------------------------------
+[2025-12-02 10:21:40] Attempting to connect to MySQL server
+----------------------------------------
+[2025-12-02 10:21:40] Connected to MySQL server successfully
+----------------------------------------
+[2025-12-02 10:21:40] Database created/verified: complaint_db
+----------------------------------------
+[2025-12-02 10:21:40] Connected to database successfully
+----------------------------------------
+[2025-12-02 10:21:40] Creating complaints table if not exists
+----------------------------------------
+[2025-12-02 10:21:40] Complaints table verified/created
+----------------------------------------
+[2025-12-02 10:21:40] Creating users table if not exists
+----------------------------------------
+[2025-12-02 10:21:40] Users table verified/created
+----------------------------------------
+[2025-12-02 10:21:40] Available tables in database:
+Data: Array
+(
+    [0] => complaint_files
+    [1] => complaints
+    [2] => departments
+    [3] => staff_assignments
+    [4] => status_updates
+    [5] => users
+)
+
+----------------------------------------
+[06-Dec-2025 14:54:23 Europe/Berlin] === CREATE COMPLAINT REQUEST START ===
+[06-Dec-2025 14:54:23 Europe/Berlin] Request Method: POST
+[06-Dec-2025 14:54:23 Europe/Berlin] Content Type: application/json
+[06-Dec-2025 14:54:23 Europe/Berlin] Reading JSON input...
+[06-Dec-2025 14:54:23 Europe/Berlin] JSON input length: 164
+[06-Dec-2025 14:54:23 Europe/Berlin] JSON input preview: {"title":"Garbage","description":"too much garbage in this area","category":"Sanitation","location":"barangay 57 dap-dap","priority_level":"Medium","file_ids":[12]}
+[06-Dec-2025 14:54:23 Europe/Berlin] JSON decoded successfully. Keys: title, description, category, location, priority_level, file_ids
+[06-Dec-2025 14:54:23 Europe/Berlin] Input validation successful
+[06-Dec-2025 14:54:23 Europe/Berlin] Connecting to database...
+[06-Dec-2025 14:54:23 Europe/Berlin] Database connection established
+[06-Dec-2025 14:54:23 Europe/Berlin] Starting database transaction...
+[06-Dec-2025 14:54:23 Europe/Berlin] Transaction started
+[06-Dec-2025 14:54:23 Europe/Berlin] === PDO EXCEPTION CAUGHT ===
+[06-Dec-2025 14:54:23 Europe/Berlin] Error message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'priority_level' in 'field list'
+[06-Dec-2025 14:54:23 Europe/Berlin] Error code: 42S22
+[06-Dec-2025 14:54:23 Europe/Berlin] SQL Error Info: Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'priority_level' in 'field list'
+)
+
+[06-Dec-2025 14:54:23 Europe/Berlin] File: C:\xampp\htdocs\complaint\backend\api\citizen\create-complaint.php
+[06-Dec-2025 14:54:23 Europe/Berlin] Line: 291
+[06-Dec-2025 14:54:23 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\complaint\backend\api\citizen\create-complaint.php(291): PDO->prepare('\r\n        INSER...')
+#1 {main}
+[06-Dec-2025 14:54:23 Europe/Berlin] Attempting to rollback transaction...
+[06-Dec-2025 14:54:23 Europe/Berlin] Transaction rolled back successfully
+[06-Dec-2025 14:59:09 Europe/Berlin] === CREATE COMPLAINT REQUEST START ===
+[06-Dec-2025 14:59:09 Europe/Berlin] Request Method: POST
+[06-Dec-2025 14:59:09 Europe/Berlin] Content Type: application/json
+[06-Dec-2025 14:59:10 Europe/Berlin] Reading JSON input...
+[06-Dec-2025 14:59:10 Europe/Berlin] JSON input length: 161
+[06-Dec-2025 14:59:10 Europe/Berlin] JSON input preview: {"title":"Garbage","description":"too much garbage in this area","category":"General","location":"barangay 57 dap-dap","priority_level":"Medium","file_ids":[13]}
+[06-Dec-2025 14:59:10 Europe/Berlin] JSON decoded successfully. Keys: title, description, category, location, priority_level, file_ids
+[06-Dec-2025 14:59:10 Europe/Berlin] Input validation successful
+[06-Dec-2025 14:59:10 Europe/Berlin] Connecting to database...
+[06-Dec-2025 14:59:10 Europe/Berlin] Database connection established
+[06-Dec-2025 14:59:10 Europe/Berlin] Starting database transaction...
+[06-Dec-2025 14:59:10 Europe/Berlin] Transaction started
+[06-Dec-2025 14:59:10 Europe/Berlin] Checking complaints table structure...
+[06-Dec-2025 14:59:10 Europe/Berlin] Existing columns: id, citizen_id, title, description, category, location, status, priority_level, department_id, staff_id, sla_due_at, sla_status, created_at
+[06-Dec-2025 14:59:10 Europe/Berlin] SQL Query: INSERT INTO complaints (citizen_id, description, category, location, status, title, priority_level, sla_due_at, sla_status, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[06-Dec-2025 14:59:10 Europe/Berlin] Values: [11,"too much garbage in this area","General","barangay 57 dap-dap","Pending","Garbage","Medium","2025-12-08 14:59:10","On Time","2025-12-06 14:59:10"]
+[06-Dec-2025 14:59:10 Europe/Berlin] Complaint inserted successfully with ID: 6
+[06-Dec-2025 15:00:01 Europe/Berlin] Audit logging failed: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction
+[06-Dec-2025 15:00:01 Europe/Berlin] Committing transaction for complaint ID: 6
+[06-Dec-2025 15:00:01 Europe/Berlin] Transaction committed successfully
+[06-Dec-2025 15:00:01 Europe/Berlin] Fetching created complaint details...
+[06-Dec-2025 15:00:01 Europe/Berlin] Complaint fetched successfully
+[06-Dec-2025 15:00:04 Europe/Berlin] === COMPLAINT CREATED SUCCESSFULLY ===
+[06-Dec-2025 15:00:04 Europe/Berlin] Complaint ID: 6
+[06-Dec-2025 15:00:04 Europe/Berlin] Title: Garbage
+[06-Dec-2025 15:00:04 Europe/Berlin] File IDs: 13
+[07-Dec-2025 02:01:35 Europe/Berlin] === CREATE COMPLAINT REQUEST START ===
+[07-Dec-2025 02:01:35 Europe/Berlin] Request Method: OPTIONS
+[07-Dec-2025 02:01:35 Europe/Berlin] Content Type: UNKNOWN
+[07-Dec-2025 02:01:35 Europe/Berlin] === CREATE COMPLAINT REQUEST START ===
+[07-Dec-2025 02:01:35 Europe/Berlin] Request Method: POST
+[07-Dec-2025 02:01:35 Europe/Berlin] Content Type: multipart/form-data; boundary=----WebKitFormBoundaryHES4eoqdrkANF0nv
+[07-Dec-2025 02:01:36 Europe/Berlin] Content Type: multipart/form-data; boundary=----WebKitFormBoundaryHES4eoqdrkANF0nv
+[07-Dec-2025 02:01:36 Europe/Berlin] Processing multipart/form-data request...
+[07-Dec-2025 02:01:36 Europe/Berlin] Processing 1 uploaded images...
+[07-Dec-2025 02:01:36 Europe/Berlin] Found 1 images to upload
+[07-Dec-2025 02:01:36 Europe/Berlin] Input validation successful
+[07-Dec-2025 02:01:36 Europe/Berlin] Connecting to database...
+[07-Dec-2025 02:01:36 Europe/Berlin] Database connection established
+[07-Dec-2025 02:01:36 Europe/Berlin] Starting database transaction...
+[07-Dec-2025 02:01:36 Europe/Berlin] Transaction started
+[07-Dec-2025 02:01:36 Europe/Berlin] Checking complaints table structure...
+[07-Dec-2025 02:01:36 Europe/Berlin] Existing columns: id, citizen_id, title, description, category, location, status, priority_level, department_id, staff_id, sla_due_at, sla_status, created_at, updated_at
+[07-Dec-2025 02:01:36 Europe/Berlin] SQL Query: INSERT INTO complaints (citizen_id, description, category, location, status, title, priority_level, sla_due_at, sla_status, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[07-Dec-2025 02:01:36 Europe/Berlin] Values: [13,"broken street light can cause accident","Infrastructure","Oro Site Legazpi City","Pending","Broken Street Lights","High","2025-12-08 02:01:36","On Time","2025-12-07 02:01:36"]
+[07-Dec-2025 02:01:36 Europe/Berlin] Complaint inserted successfully with ID: 7
+[07-Dec-2025 02:01:36 Europe/Berlin] Processing 1 image uploads...
+[07-Dec-2025 02:02:27 Europe/Berlin] Image upload error: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction
+[07-Dec-2025 02:02:27 Europe/Berlin] Image upload failed: Failed to upload image: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction
+[07-Dec-2025 02:02:27 Europe/Berlin] Successfully uploaded 0 images
+[07-Dec-2025 02:03:18 Europe/Berlin] Audit logging failed: SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction
+[07-Dec-2025 02:03:18 Europe/Berlin] Committing transaction for complaint ID: 7
+[07-Dec-2025 02:03:18 Europe/Berlin] Transaction committed successfully
+[07-Dec-2025 02:03:18 Europe/Berlin] Fetching created complaint details...
+[07-Dec-2025 02:03:18 Europe/Berlin] Complaint fetched successfully
+[07-Dec-2025 02:03:21 Europe/Berlin] === COMPLAINT CREATED SUCCESSFULLY ===
+[07-Dec-2025 02:03:21 Europe/Berlin] Complaint ID: 7
+[07-Dec-2025 02:03:21 Europe/Berlin] Title: Broken Street Lights
+[07-Dec-2025 02:03:21 Europe/Berlin] File IDs: 
+[07-Dec-2025 02:03:21 Europe/Berlin] Uploaded Images: 0
